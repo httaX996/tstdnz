@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "pm2": "pm2 start index.js --name FREE-BASE-DANUZZ --attach",
+    "pm2": "pm2 start index.js --deep-monitoring --attach --name FREE-BASE-DANUZZ",
     "stop": "pm2 stop FREE-BASE-DANUZZ",
     "restart": "pm2 restart FREE-BASE-DANUZZ"
   },
