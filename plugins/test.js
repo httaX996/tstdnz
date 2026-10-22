@@ -112,14 +112,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
   footer: 'chethmina',
   cards: [
     { image: { url: 'https://i.ibb.co/fd7v5197/6xs-BKLp911.jpg' }, title: 'Item A', caption: 'New in stock', nativeFlow: [{ text: 'View', id: 'view_a' }] },
-    { image: { url: 'https://i.ibb.co/fd7v5197/6xs-BKLp911.jpg' }, title: 'Item B', caption: 'Limited edition', nativeFlow: [{ text: 'View', id: 'view_b' }] },
-    {
-      businessOwnerJid: '94788928386@s.whatsapp.net',
-      product: { title: 'Wireless Mouse', productImage: { url: 'https://i.ibb.co/fd7v5197/6xs-BKLp911.jpg' } },
-      title: 'Wireless Mouse',
-      caption: '$19.99',
-      nativeFlow: [{ text: 'Buy Now', id: 'buy_mouse' }]
-    }
+    { image: { url: 'https://i.ibb.co/fd7v5197/6xs-BKLp911.jpg' }, title: 'Item B', caption: 'Limited edition', nativeFlow: [{ text: 'View', id: 'view_b' }] }
   ]
 }, { quoted: ck });
 
