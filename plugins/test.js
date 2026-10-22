@@ -129,28 +129,9 @@ async (conn, mek, m, { from, quoted, reply }) => {
     }
 });
 
+
 cmd({
     pattern: "test5",
-    alias: ["tes3", "t2"],
-    use: '.test',
-    desc: "Check bot's response time.",
-    category: "main",
-    react: "⚡",
-    filename: __filename
-},
-async (conn, mek, m, { from, quoted, reply }) => {
-    try {
-        await sock.aiRich().addProcess('Loading...').send(from)
-    };
-
-    } catch (e) {
-        console.error(e);
-        reply(`An error occurred: ${e.message}`);
-    }
-});
-
-cmd({
-    pattern: "test6",
     alias: ["tes3", "t2"],
     use: '.test',
     desc: "Check bot's response time.",
