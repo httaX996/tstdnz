@@ -87,7 +87,7 @@ canvas { width: 100%; height: 100%; display: block; background: #1a2332; }
     </div>
 
     <div class="credit-bar">
-      Engineered by <span>THENUX & UDMODZ</span> ⚡
+      Made by <span>CHETHMINA KAVISHAN</span> ⚡
     </div>
   </div>
 </div>
